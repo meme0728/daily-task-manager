@@ -38,7 +38,8 @@
 // ラベル削除
 const deleteLabel = (labelToDelete) => {
   setLabels(labels.filter(label => label !== labelToDelete));
-};import React, { useState, useEffect, useRef } from 'react';
+};
+import React, { useState, useEffect, useRef } from 'react';
 import { Plus, Settings, Download, Moon, Sun, Copy } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 
